@@ -55,6 +55,6 @@ $ make install
 
 and then try to run it:
 
-* TORSOCKS_CONF_FILE=$PWD/torsocks.conf LD_PRELOAD=torsocks/out/lib/torsocks/libtorsocks.so ./qml-runtime file:///ipfs/QmVkPJXs54R5mLG9hWBe7Sn8oj5waqegHXSbgCWz8gXAL5/main.qml
+* TORSOCKS_CONF_FILE=$PWD/torsocks.conf LD_PRELOAD=torsocks/out/lib/torsocks/libtorsocks.so src/bin/qml-runtime file:///ipfs/QmVkPJXs54R5mLG9hWBe7Sn8oj5waqegHXSbgCWz8gXAL5/main.qml
 
 
